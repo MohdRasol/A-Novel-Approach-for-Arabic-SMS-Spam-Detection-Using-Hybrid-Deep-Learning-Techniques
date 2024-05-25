@@ -13,6 +13,13 @@ Hybrid Deep Learning Model: Combines CNN and Bi-LSTM networks to capture both lo
 High Performance: Achieved an accuracy of 96.99%, precision of 97.39%, recall of 96.75%, and F1 score of 97.07%.
 Comprehensive Evaluation: Includes visualizations of the confusion matrix, ROC curve, and training-validation loss graph to illustrate the model's performance.
 # Methodology
+The figure below illustrates the architecture of the proposed hybrid model for detecting spam in Arabic SMS messages. The model combines Convolutional Neural Networks (CNN) and Bidirectional Long Short-Term Memory (Bi-LSTM) networks to leverage their respective strengths in capturing local patterns and long-term dependencies.
+
+Embedding Layer: Converts tokens into dense vectors of fixed size (128 dimensions), mapping each word in the input sequence to a continuous vector space.
+CNN Layer: Utilizes 64 filters with a kernel size of 5 to perform convolution operations and extract local features from the input sequences.
+MaxPooling Layer: Applies max-pooling with a pool size of 4 to reduce the dimensionality of the feature maps and retain the most significant features.
+Bi-LSTM Layer: Contains 64 LSTM units with dropout (0.2) and recurrent dropout (0.2), processing sequences bidirectionally to capture long-term dependencies.
+Dense Layer: Outputs the final classification (ham or spam) using a sigmoid activation function.
 
 ![image](https://github.com/MohdRasol/A-Novel-Approach-for-Arabic-SMS-Spam-Detection-Using-Hybrid-Deep-Learning-Techniques/assets/59788704/affb3415-63f5-4eef-93ad-2203a072cca2)
 
