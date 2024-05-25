@@ -13,6 +13,10 @@ Hybrid Deep Learning Model: Combines CNN and Bi-LSTM networks to capture both lo
 High Performance: Achieved an accuracy of 96.99%, precision of 97.39%, recall of 96.75%, and F1 score of 97.07%.
 Comprehensive Evaluation: Includes visualizations of the confusion matrix, ROC curve, and training-validation loss graph to illustrate the model's performance.
 # Methodology
+
+![image](https://github.com/MohdRasol/A-Novel-Approach-for-Arabic-SMS-Spam-Detection-Using-Hybrid-Deep-Learning-Techniques/assets/59788704/affb3415-63f5-4eef-93ad-2203a072cca2)
+
+
 # Dataset Preparation:
 
 The dataset is derived from the SMS Spam Collection dataset available from the UCI Machine Learning Repository.
